@@ -1,0 +1,136 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles or utilities*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Top header section */
+.top-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1321px;
+    height: 607px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 130px;
+}
+.top-container:hover{
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
+}
+.heading-info{
+    width: 531px;
+}
+.heading-info p{
+    margin-bottom: 30px;
+}
+.watch-link{
+    text-decoration: none;
+    color: white;
+    background-color: #DD0000;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.header-img img{
+    width: 581px;
+    height: 613px;
+}
+
+/* Match bar part */
+.match-bar{
+    background-color: black;
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+.match-bar-link{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Total matches part */
+.match-container{
+    display: flex;
+    justify-content: center;
+    width: 1321px;
+}
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.match{
+    width: 280px;
+    height: 220px;
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thumbnail{
+    display: flex;
+    column-gap: 10px;
+}
+
+/* Footer */
+
+.footer{
+    width: 1900px;
+    height: 350px;
+    margin-top: 230px;
+    background-color: black;
+}
+.footer-header{
+    margin-top: 50px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+hr{
+    width: 1000px;
+    border: 1px solid rgba(255, 255,255,0.1);
+}
+.supports{
+    margin-top: 50px;
+    text-align: center;
+}
+.supports a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: #B9B9B9;
+}
+.socials{
+    padding-top: 20px;
+    text-align: center;
+}
+.socials a{
+    padding-right: 20px;
+    color: white;
+}
